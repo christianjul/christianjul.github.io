@@ -90,8 +90,6 @@ h1 > small {
 
 blockquote {
     margin: 0;
-    width: 33%;
-    float:left;    
 }
 
 blockquote small {
@@ -104,4 +102,11 @@ blockquote small::before {
 
 .endorsements p {
     color: #7ac142;
+}
+
+@media (min-width: 1165px) {
+    blockquote {
+        width: 33%;
+        float:left; 
+    }
 }
