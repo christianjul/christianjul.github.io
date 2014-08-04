@@ -148,3 +148,6 @@ blockquote small::before {
     color: #7ac142;
 }
 
+footer img {
+    padding: 0 10%;
+}
