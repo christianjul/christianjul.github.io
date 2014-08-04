@@ -17,7 +17,25 @@
 
 body, html {
     height: 100%;
-    font-size: 100%;
+    font-size: 40%;
+}
+
+@media (min-width: 425px) {
+    body, html {
+        font-size: 60%;
+    }
+}
+
+@media (min-width: 425px) {
+    body, html {
+        font-size: 80%;
+    }
+}
+
+@media (min-width: 690px) {
+    body, html {
+        font-size: 100%;
+    }
 }
 
 body {
@@ -92,6 +110,13 @@ blockquote {
     margin: 0;
 }
 
+@media (min-width: 1165px) {
+    blockquote {
+        width: 33%;
+        float:left; 
+    }
+}
+
 blockquote small {
     font-style: italic;
 }
@@ -104,9 +129,3 @@ blockquote small::before {
     color: #7ac142;
 }
 
-@media (min-width: 1165px) {
-    blockquote {
-        width: 33%;
-        float:left; 
-    }
-}
