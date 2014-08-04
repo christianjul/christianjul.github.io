@@ -149,5 +149,7 @@ blockquote small::before {
 }
 
 footer img {
-    padding: 0 10%;
+    position: absolute;
+    right: 10%;
+    padding: 2rem;
 }
