@@ -77,6 +77,10 @@
             display: block;
         }
         
+        .shoe-image.loading {
+            opacity: 0.5;
+        }
+        
         .shoe-info {
             padding: 20px;
             flex-grow: 1;
@@ -123,6 +127,8 @@
             text-align: center;
             transition: background 0.3s ease;
             margin-top: auto;
+            border: none;
+            cursor: pointer;
         }
         
         .shoe-link:hover {
@@ -170,84 +176,84 @@
             <!-- Shoe 1: Nike Shox Z Light Bone -->
             <div class="shoe-card">
                 <div class="shoe-image-wrapper">
-                    <img src="https://nakedcph.com/cdn/shop/files/HQ7540-004_1.jpg?v=1758698736&width=800" alt="Nike Shox Z Light Bone" class="shoe-image" loading="lazy">
+                    <img class="shoe-image loading" src="https://nakedcph.com/cdn/shop/files/HQ7540-004_1.jpg?v=1758698736" alt="Nike Shox Z Light Bone" loading="lazy" onload="this.classList.remove('loading')">
                 </div>
                 <div class="shoe-info">
                     <div class="shoe-brand">Nike</div>
                     <div class="shoe-name">Shox Z</div>
                     <div class="shoe-color">Light Bone/Light Bone</div>
                     <div class="shoe-price">600 DKK (was 1000 DKK)</div>
-                    <a href="https://nakedcph.com/da/products/nike-shox-z-light-bone-light-bone-hq7540-004" class="shoe-link">View on NAKED</a>
+                    <a href="https://nakedcph.com/da/products/nike-shox-z-light-bone-light-bone-hq7540-004" class="shoe-link">View on NAKED →</a>
                 </div>
             </div>
             
             <!-- Shoe 2: Nike Shox Z Silver -->
             <div class="shoe-card">
                 <div class="shoe-image-wrapper">
-                    <img src="https://nakedcph.com/cdn/shop/files/IO7843-002_1.jpg?v=1773822848&width=800" alt="Nike Shox Z Silver" class="shoe-image" loading="lazy">
+                    <img class="shoe-image loading" src="https://nakedcph.com/cdn/shop/files/IO7843-002_1.jpg?v=1773822848" alt="Nike Shox Z Silver" loading="lazy" onload="this.classList.remove('loading')">
                 </div>
                 <div class="shoe-info">
                     <div class="shoe-brand">Nike</div>
                     <div class="shoe-name">Shox Z</div>
                     <div class="shoe-color">Silver/Metallic Silver-Black</div>
                     <div class="shoe-price">600 DKK (was 1000 DKK)</div>
-                    <a href="https://nakedcph.com/da/products/nike-shox-z-silver-metallic-silver-black-io7843-002" class="shoe-link">View on NAKED</a>
+                    <a href="https://nakedcph.com/da/products/nike-shox-z-silver-metallic-silver-black-io7843-002" class="shoe-link">View on NAKED →</a>
                 </div>
             </div>
             
             <!-- Shoe 3: Jordan Brand Air Jordan 3 -->
             <div class="shoe-card">
                 <div class="shoe-image-wrapper">
-                    <img src="https://nakedcph.com/cdn/shop/files/IF4396-103_1.jpg?width=800" alt="Air Jordan 3" class="shoe-image" loading="lazy">
+                    <img class="shoe-image loading" src="https://nakedcph.com/cdn/shop/files/IF4396-103_2.jpg?v=1777554929&width=800" alt="Air Jordan 3" loading="lazy" onload="this.classList.remove('loading')">
                 </div>
                 <div class="shoe-info">
                     <div class="shoe-brand">Jordan Brand</div>
                     <div class="shoe-name">Air Jordan 3</div>
-                    <div class="shoe-color">World's Best Dad - Sail/Black/University Red</div>
+                    <div class="shoe-color">World's Best Dad<br/>Sail/Black/University Red</div>
                     <div class="shoe-price">Check NAKED for pricing</div>
-                    <a href="https://nakedcph.com/da/products/jordan-brand-air-jordan-3-world-s-best-dad-sail-black-university-red-pale-ivory-if4396-103" class="shoe-link">View on NAKED</a>
+                    <a href="https://nakedcph.com/da/products/jordan-brand-air-jordan-3-world-s-best-dad-sail-black-university-red-pale-ivory-if4396-103" class="shoe-link">View on NAKED →</a>
                 </div>
             </div>
             
             <!-- Shoe 4: ASICS GEL-Kinetic Fluent -->
             <div class="shoe-card">
                 <div class="shoe-image-wrapper">
-                    <img src="https://nakedcph.com/cdn/shop/files/1203A973-700_1.jpg?width=800" alt="ASICS GEL-Kinetic Fluent" class="shoe-image" loading="lazy">
+                    <img class="shoe-image loading" src="https://nakedcph.com/cdn/shop/files/1203A973-700_2.jpg?width=800" alt="ASICS GEL-Kinetic Fluent" loading="lazy" onload="this.classList.remove('loading')">
                 </div>
                 <div class="shoe-info">
                     <div class="shoe-brand">ASICS</div>
                     <div class="shoe-name">GEL-Kinetic Fluent</div>
                     <div class="shoe-color">Watershed Rose/Kale</div>
                     <div class="shoe-price">US Size 7</div>
-                    <a href="https://nakedcph.com/da/products/asics-us7-s-gel-kinetic-fluent-watershed-rose-kale-1203a973-700" class="shoe-link">View on NAKED</a>
+                    <a href="https://nakedcph.com/da/products/asics-us7-s-gel-kinetic-fluent-watershed-rose-kale-1203a973-700" class="shoe-link">View on NAKED →</a>
                 </div>
             </div>
             
             <!-- Shoe 5: Nike Air Max 95 -->
             <div class="shoe-card">
                 <div class="shoe-image-wrapper">
-                    <img src="https://nakedcph.com/cdn/shop/files/IB7872-100_1.jpg?width=800" alt="Nike Air Max 95" class="shoe-image" loading="lazy">
+                    <img class="shoe-image loading" src="https://nakedcph.com/cdn/shop/files/IB7872-100_1.jpg" alt="Nike Air Max 95" loading="lazy" onload="this.classList.remove('loading')">
                 </div>
                 <div class="shoe-info">
                     <div class="shoe-brand">Nike</div>
                     <div class="shoe-name">Air Max 95</div>
-                    <div class="shoe-color">Olympique - White/Gold/Chile Red/Blue</div>
+                    <div class="shoe-color">Olympique<br/>White/Gold/Chile Red/Blue</div>
                     <div class="shoe-price">Check NAKED for pricing</div>
-                    <a href="https://nakedcph.com/da/products/nike-air-max-95-olympique-white-gold-chile-red-blue-ib7872-100" class="shoe-link">View on NAKED</a>
+                    <a href="https://nakedcph.com/da/products/nike-air-max-95-olympique-white-gold-chile-red-blue-ib7872-100" class="shoe-link">View on NAKED →</a>
                 </div>
             </div>
             
             <!-- Shoe 6: HOKA Mafate Speed 2 TS -->
             <div class="shoe-card">
                 <div class="shoe-image-wrapper">
-                    <img src="https://nakedcph.com/cdn/shop/files/1181770-PCHD_1.jpg?width=800" alt="HOKA Mafate Speed 2" class="shoe-image" loading="lazy">
+                    <img class="shoe-image loading" src="https://nakedcph.com/cdn/shop/files/1181770-PCHD_2.jpg?width=800" alt="HOKA Mafate Speed 2" loading="lazy" onload="this.classList.remove('loading')">
                 </div>
                 <div class="shoe-info">
                     <div class="shoe-brand">HOKA</div>
                     <div class="shoe-name">Mafate Speed 2 TS</div>
                     <div class="shoe-color">Peach Dust</div>
                     <div class="shoe-price">Trail Shoe</div>
-                    <a href="https://nakedcph.com/da/products/hoka-hoka-x-xlim-mafate-speed-2-ts-peach-dust-1181770-pchd" class="shoe-link">View on NAKED</a>
+                    <a href="https://nakedcph.com/da/products/hoka-hoka-x-xlim-mafate-speed-2-ts-peach-dust-1181770-pchd" class="shoe-link">View on NAKED →</a>
                 </div>
             </div>
         </div>
